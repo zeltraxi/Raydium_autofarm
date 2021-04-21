@@ -1,24 +1,24 @@
 # Raydium_autofarm
-Raydium hourly autofarm \n
+Raydium hourly autofarm  
 
-This Python Script enable you to autofarm raydium and restake RAY every hour. \n
+This Python Script enable you to autofarm raydium and restake RAY every hour. 
 
-Install packages: \n
-pip install time \n
-pip install selenium \n
-pip install pyautogui \n
-pip install schedule \n
-pip install datetime \n
+Install packages: 
+pip install time 
+pip install selenium 
+pip install pyautogui 
+pip install schedule 
+pip install datetime 
 
-Also look at your chromedriver.exe: https://chromedriver.storage.googleapis.com/index.html?path=90.0.4430.24/  \n
-ChromeProfile Path putting : chrome://version in your browser. \n
+Also look at your chromedriver.exe: https://chromedriver.storage.googleapis.com/index.html?path=90.0.4430.24/  
+ChromeProfile Path putting : chrome://version in your browser. 
 
-This script takes LP ETH/RAY & USDT/RAY Reward and also restake of RAY. \n
+This script takes LP ETH/RAY & USDT/RAY Reward and also restake of RAY. 
 
-This script use macro click so adapt it into your screen to connect to sollet wallet. \n
+This script use macro click so adapt it into your screen to connect to sollet wallet. 
 
-You will then launch everyhour and autofarm your RAY to optimize farming. \n
+You will then launch everyhour and autofarm your RAY to optimize farming. 
 
-Note that you need Sol token, Sollet Wallet and of course LP Token. \n
+Note that you need Sol token, Sollet Wallet and of course LP Token. 
 
 Have fun!
