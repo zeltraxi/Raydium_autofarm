@@ -29,34 +29,34 @@ def job():
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/header/div/div[1]/button')[0]
     python_button.click()
     #Open Sollet Wallet
-    time.sleep(1)
+    time.sleep(2)
     #Focus on new tab
     python_button = driver.find_elements_by_xpath('/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/button[2]')[0]
     python_button.click()
     #Connect Sollet Wallet
-    time.sleep(1)
+    time.sleep(2)
     #pyautogui.click(x=1300, y=10)
     #time.sleep(3)
     pyautogui.click(x=400, y=440)
-    time.sleep(1)
+    time.sleep(2)
     pyautogui.click(x=1300, y=500)
-    time.sleep(1)
+    time.sleep(2)
     pyautogui.click(x=1300, y=500)
-    time.sleep(1)
+    time.sleep(2)
     #Print earn in LP
     print('Value in RAY/USDT : ' + driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[2]/div/div/div[2]/div[2]')[0].text)
     print('Value in RAY/ETH : ' + driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[9]/div[1]/div/div[2]/div[2]')[0].text)
     #Select Reward RAY / USDT
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[2]/div/div/div[2]')[0]
     python_button.click()
-    time.sleep(3)
+    time.sleep(2)
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[2]/div[2]/div/div/div[2]/div/div[2]/button')[0]
     python_button.click()
     #Select Reward RAY / ETH
-    time.sleep(3)
+    time.sleep(2)
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[9]/div[1]/div/div[2]')[0]
     python_button.click()
-    time.sleep(3)
+    time.sleep(2)
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[3]/div[1]/div/div/div[9]/div[2]/div/div/div[2]/div/div[2]/button')[0]
     python_button.click()
     #Staking Page
@@ -65,35 +65,35 @@ def job():
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/header/div/div[1]/button')[0]
     python_button.click()
     #Open Sollet Wallet
-    time.sleep(1)
+    time.sleep(2)
     #Focus on new tab
     python_button = driver.find_elements_by_xpath('/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/button[2]')[0]
     python_button.click()
-    time.sleep(1)
+    time.sleep(2)
     #pyautogui.click(x=1300, y=10)
     #time.sleep(3)
     pyautogui.click(x=400, y=440)
-    time.sleep(1)
+    time.sleep(2)
     pyautogui.click(x=1300, y=500)
-    time.sleep(1)
+    time.sleep(2)
     pyautogui.click(x=1300, y=500)
     #Earn Ray
-    time.sleep(3)
+    time.sleep(2)
     print('Ray in staking : ' + driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[2]/div/div/div/div[1]/div/div[2]/div[2]')[0].text)
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[2]/div/div/div/div[1]/div/div[2]')[0]
     python_button.click()
-    time.sleep(3)
+    time.sleep(2)
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[2]/div/div/div/div[2]/div/div/div[1]/div/div[2]/button')[0]
     python_button.click()
     time.sleep(3)
     #Staking RAY
     python_button = driver.find_elements_by_xpath('//*[@id="__layout"]/section/main/div/div[2]/div/div/div/div[2]/div/div/div[2]/div/div[2]/button[2]')[0]
     python_button.click()
-    time.sleep(3)
+    time.sleep(2)
     #MAX
     python_button = driver.find_elements_by_xpath('/html/body/div[4]/div/div[2]/div/div[2]/div[2]/div[1]/div[2]/button')[0]
     python_button.click()
-    time.sleep(3)
+    time.sleep(2)
     #Confirm
     python_button = driver.find_elements_by_xpath('/html/body/div[4]/div/div[2]/div/div[2]/div[2]/div[2]/div[2]/button')[0]
     python_button.click()
